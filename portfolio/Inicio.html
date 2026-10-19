@@ -1,0 +1,576 @@
+
+
+  <!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Montserrat", sans-serif;
+            background-color: white;
+            color: black;
+            line-height: 1.6;
+        }
+
+        /* CABECERA */
+
+        header {
+            padding: 30px;
+            text-align: center;
+            background-color: #343432;
+        }
+
+        header h1 {
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        /* MENÚ */
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* SECCIONES */
+
+        section {
+            padding: 40px;
+            min-height: 200px;
+        }
+
+        /* PRESENTACIÓN */
+
+        .hero-home {
+            text-align: center;
+            background-color: white;
+        }
+
+        .hero-home h2 {
+            margin-bottom: 20px;
+        }
+
+        .hero-home p {
+            max-width: 1080px;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+
+        /* IMAGEN PRINCIPAL */
+
+        .seccion-fotos {
+            text-align: center;
+            background-color: white;
+        }
+
+        .contenedor-imagenes img {
+            width: 800px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* EXPERIENCIA */
+
+        #Seccion1 {
+            background: #f4efe3;
+        }
+
+        #Seccion1 p {
+            max-width: 1080px;
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        /* MÁS QUE UN LOGO */
+
+        #Seccion2 {
+            background: #e2e2e2;
+        }
+
+        #Seccion2 p {
+            max-width: 1080px;
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        /* PROYECTOS */
+
+        #Seccion3 {
+            background: #ffffff;
+            text-align: center;
+        }
+
+        #Seccion3 p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+       #miCarrusel {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+#miCarrusel .carousel-item {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#miCarrusel img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 700px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: none;
+}
+        /* CONTACTO */
+
+        #Seccion4 {
+            background: #f4efe3;
+            text-align: center;
+        }
+
+        #Seccion4 p {
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        .formulario {
+            max-width: 1070px;
+            margin: 30px auto 0 auto;
+            text-align: left;
+        }
+
+        .formulario label {
+            font-size: 18px;
+        }
+
+        .formulario input,
+        .formulario textarea {
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+        }
+
+        .formulario button {
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* PIE DE PÁGINA */
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- CABECERA -->
+
+    <header>
+
+        <h1>Mi Portfolio</h1>
+
+       <nav>
+            <ul>
+
+                <a href="Inicio.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="Impresión.html">Impresión</a>
+                </li>
+
+                <li>
+                    <a href="Preimpresión.html">Preimpresión</a>
+                </li>
+
+                <li>
+                    <a href="Postimpresión.html">Postimpresión</a>
+                </li>
+
+                <li> 
+                <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- PRESENTACIÓN -->
+
+    <section class="hero-home">
+
+        <h2>Hola, soy Karina ;)</h2>
+
+        <p>
+            Me gusta el diseño como forma de expresión y comunicación.
+            Disfruto creando conceptos visuales que conectan con las personas,
+            desde propuestas puramente conceptuales hasta proyectos que se
+            materializan y cobran vida a través de la impresión.
+        </p>
+
+    </section>
+
+
+    <!-- IMAGEN PRINCIPAL -->
+
+    <section class="seccion-fotos">
+
+        <div class="contenedor-imagenes">
+
+            <img src="Principal.png"
+                alt="Imagen principal del portfolio">
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCIA -->
+
+    <section id="Seccion1">
+
+        <h3>Experiencia</h3>
+
+        <p>
+            Cuento con un Grado Medio en Impresión Gráfica y un Grado Superior
+            en Diseño y Edición de Publicaciones Impresas y Multimedia.
+            Durante mi formación realicé 500 horas de prácticas en Print Custom
+            y 120 horas en Eurografic.
+        </p>
+
+    </section>
+
+
+    <!-- MÁS QUE UN LOGO -->
+
+    <section id="Seccion2">
+
+        <h3>Más que un logo</h3>
+
+        <p>
+            Una identidad funciona como ayuda a reconocer una empresa, explica
+            qué la diferencia y da criterio. Por eso se empieza por entender
+            el negocio, el contexto y el punto de partida antes de definir la forma.
+        </p>
+
+    </section>
+
+
+    <!-- PROYECTOS DESTACADOS -->
+
+    <section id="Seccion3">
+
+        <h3>Proyectos destacados</h3>
+
+        <p>
+            Proyectos de diseño, impresión, preimpresión y postimpresión.
+        </p>
+
+    </section>
+
+
+    <!-- CARRUSEL -->
+
+    <div id="miCarrusel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3000">
+
+
+        <div class="carousel-inner">
+
+
+            <!-- FOTO 1 -->
+
+            <div class="carousel-item active">
+
+                <img src="Foto1.png"
+                    class="d-block w-100"
+                    alt="Proyecto 1">
+
+            </div>
+
+
+            <!-- FOTO 2 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto2.png"
+                    class="d-block w-100"
+                    alt="Proyecto 2">
+
+            </div>
+
+
+            <!-- FOTO 3 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto3.png"
+                    class="d-block w-100"
+                    alt="Proyecto 3">
+
+            </div>
+
+
+            <!-- FOTO 4 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto4.png"
+                    class="d-block w-100"
+                    alt="Proyecto 4">
+
+            </div>
+
+
+            <!-- FOTO 5 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto5.png"
+                    class="d-block w-100"
+                    alt="Proyecto 5">
+
+            </div>
+
+
+            <!-- FOTO 6 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto6.png"
+                    class="d-block w-100"
+                    alt="Proyecto 6">
+
+            </div>
+
+
+            <!-- FOTO 7 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto7.png"
+                    class="d-block w-100"
+                    alt="Proyecto 7">
+
+            </div>
+
+
+            <!-- FOTO 8 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto8.png"
+                    class="d-block w-100"
+                    alt="Proyecto 8">
+
+            </div>
+
+
+            <!-- FOTO 9 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto9.png"
+                    class="d-block w-100"
+                    alt="Proyecto 9">
+
+            </div>
+
+
+            <!-- FOTO 10 -->
+
+            <div class="carousel-item">
+
+                <img src="Foto10.png"
+                    class="d-block w-100"
+                    alt="Proyecto 10">
+
+            </div>
+
+
+        </div>
+
+
+        <!-- FLECHA ANTERIOR -->
+
+        <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#miCarrusel"
+            data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+            <span class="visually-hidden">
+                Anterior
+            </span>
+
+        </button>
+
+
+        <!-- FLECHA SIGUIENTE -->
+
+        <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#miCarrusel"
+            data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+            <span class="visually-hidden">
+                Siguiente
+            </span>
+
+        </button>
+
+
+    </div>
+
+
+    <!-- CONTACTO -->
+
+    <section id="Seccion4">
+
+        <h3>Contacto</h3>
+
+        <p>
+            Si quieres contactar conmigo, puedes escribirme a través
+            del siguiente formulario.
+        </p>
+
+
+        <form class="formulario bg-light border rounded shadow-sm p-4">
+
+
+            <!-- NOMBRE -->
+
+            <div class="mb-3">
+
+                <label for="nombre" class="form-label">
+                    Nombre
+                </label>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    id="nombre"
+                    placeholder="Introduce tu nombre">
+
+            </div>
+
+
+            <!-- CORREO -->
+
+            <div class="mb-3">
+
+                <label for="email" class="form-label">
+                    Correo electrónico
+                </label>
+
+                <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="ejemplo@correo.com">
+
+            </div>
+
+
+            <!-- MENSAJE -->
+
+            <div class="mb-3">
+
+                <label for="mensaje" class="form-label">
+                    Tu mensaje
+                </label>
+
+                <textarea
+                    class="form-control"
+                    id="mensaje"
+                    rows="4"
+                    placeholder="Escribe tu mensaje aquí"></textarea>
+
+            </div>
+
+
+            <!-- BOTÓN -->
+
+            <button type="submit" class="btn btn-primary">
+                Enviar
+            </button>
+
+
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        &copy; 2026 Mi portfolio
+
+    </footer>
+
+
+    <!-- JAVASCRIPT DE BOOTSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+</body>
+
+</html>
+
+
+
